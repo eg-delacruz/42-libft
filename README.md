@@ -88,9 +88,6 @@ Since the explanation of each function can be found in the manual (man [func_nam
 ### ft_strdup
 ![ft_strdup 42 libft animation](https://i.imgur.com/PqBvOHM.gif)
 
-### ft_strdup
-![ft_strdup 42 libft animation](https://i.imgur.com/PqBvOHM.gif)
-
 ### ft_substr
 ![ft_substr 42 libft animation](https://i.imgur.com/Xq8xGf4.gif)
 
