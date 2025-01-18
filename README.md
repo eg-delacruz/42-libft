@@ -20,7 +20,7 @@ After clonning the repository, you can execute the following commands in your te
 Since the explanation of each function can be found in the manual (man [func_name]) or in the subject matter, I will not explain them textually but will simply display their animation.
 
 ### ft_isalpha
-![ft_isalpha 42 libft animation](https://i.imgur.com/ArastYW.gif)
+![ft_isalpha 42 libft animation](https://i.imgur.com/MUCEgSx.gif)
 
 ### ft_isdigit
 ![ft_isdigit 42 libft animation](https://i.imgur.com/NqD2oNG.gif)
