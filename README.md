@@ -126,7 +126,7 @@ Since the explanation of each function can be found in the manual (man [func_nam
 ### ft_lstnew
 ![ft_lstnew 42 libft animation](https://i.imgur.com/XihA6l5.gif)
 
-### ft_lstadd_front
+### ft_lstadd_back
 ![ft_lstadd_front 42 libft animation](https://i.imgur.com/DEyoMlf.gif)
 
 ### ft_lstsize
@@ -135,7 +135,7 @@ Since the explanation of each function can be found in the manual (man [func_nam
 ### ft_lstlast
 ![ft_lstlast 42 libft animation](https://i.imgur.com/n254J8H.gif)
 
-### ft_lstadd_back
+### ft_lstadd_front
 ![ft_lstadd_back 42 libft animation](https://i.imgur.com/DkqVF66.gif)
 
 ### ft_lstdelone
@@ -153,7 +153,7 @@ Since the explanation of each function can be found in the manual (man [func_nam
 ## Author
 <br>
 <a href="https://www.linkedin.com/in/eg-delacruz/" target="_blank">
-<img src="https://media.licdn.com/dms/image/v2/D4D03AQGSBV1mzrlVFQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731940599224?e=1742428800&v=beta&t=3igUnVuGAMvdVgAU_Lbz8AjtgPSQF4rFk2GviR_VXIg" alt="Gerardo De La Cruz" width="200"/>
+<img src="https://www.gerardodelacruz.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FGerardo_2.687b8520.jpg&w=384&q=75" alt="Gerardo De La Cruz" width="200"/>
   <p>Gerardo De La Cruz</p>
 </a>
 <br>
