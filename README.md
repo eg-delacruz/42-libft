@@ -19,135 +19,135 @@ After clonning the repository, you can execute the following commands in your te
 ## Main functions
 Since the explanation of each function can be found in the manual (man [func_name]) or in the subject matter, I will not explain them textually but will simply display their animation.
 
-### ft_isalpha
+### int	ft_isalpha(int c)
 ![ft_isalpha 42 libft animation](https://i.imgur.com/MUCEgSx.gif)
 
-### ft_isdigit
+### int	ft_isdigit(int c)
 ![ft_isdigit 42 libft animation](https://i.imgur.com/NqD2oNG.gif)
 
-### ft_isalnum
+### int	ft_isalnum(int c)
 ![ft_isalnum 42 libft animation](https://i.imgur.com/XZuZIvs.gif)
 
-### ft_isascii
+### int	ft_isascii(int c)
 ![ft_isascii 42 libft animation](https://i.imgur.com/rmBMHwu.gif)
 
-### ft_isprint
+### int	ft_isprint(int c)
 ![ft_isprint 42 libft animation](https://i.imgur.com/Q2fW85r.gif)
 
-### ft_strlen
+### size_t	ft_strlen(const char *str)
 ![ft_strlen 42 libft animation](https://i.imgur.com/x4ghz2C.gif)
 
-### ft_memset
+### void	*ft_memset(void *str, int c, size_t n)
 ![memset 42 libft animation](https://i.imgur.com/UrzCBZ9.gif)
 
-### ft_bzero
+### void	ft_bzero(void *s, size_t n)
 ![ft_bzero 42 libft animation](https://i.imgur.com/5gF9n06.gif)
 
-### ft_memcpy
+### void	*ft_memcpy(void *dest, const void *src, size_t n)
 ![ft_memcpy 42 libft animation](https://i.imgur.com/oDEuSEB.gif)
 
-### ft_memmove
+### void	*ft_memmove(void *dest, const void *src, size_t n)
 ![ft_memmove 42 libft animation](https://i.imgur.com/lkrpSdF.gif)
 
-### ft_strlcpy
+### size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 ![ft_strlcpy 42 libft animation](https://i.imgur.com/QGQqrDc.gif)
 
-### ft_strlcat
+### size_t	ft_strlcat(char *dest, const char *src, size_t size)
 ![ft_strlcat 42 libft animation](https://i.imgur.com/hVgaUBd.gif)
 
-### ft_toupper
+### int	ft_toupper(int c)
 ![ft_toupper 42 libft animation](https://i.imgur.com/ahbQkhY.gif)
 
-### ft_tolower
+### int	ft_tolower(int c)
 ![ft_tolower 42 libft animation](https://i.imgur.com/jJs3ADP.gif)
 
-### ft_strchr
+### char	*ft_strchr(const char *s, int c)
 ![ft_strchr 42 libft animation](https://i.imgur.com/3CfR94s.gif)
 
-### ft_strrchr
+### char	*ft_strrchr(const char *s, int c)
 ![ft_strrchr 42 libft animation](https://i.imgur.com/MhVno44.gif)
 
-### ft_strncmp
+### int	ft_strncmp(const char *s1, const char *s2, size_t n)
 ![ft_strncmp 42 libft animation](https://i.imgur.com/uFYum9l.gif)
 
-### ft_memchr
+### void	*ft_memchr(const void *s, int c, size_t n)
 ![ft_memchr 42 libft animation](https://i.imgur.com/389IVFm.gif)
 
-### ft_memcmp
+### int	ft_memcmp(const void *s1, const void *s2, size_t n)
 ![ft_memcmp 42 libft animation](https://i.imgur.com/T7KfTGq.gif)
 
-### ft_strnstr
+### char	*ft_strnstr(const char *big, const char *little, size_t len)
 ![ft_strnstr 42 libft animation](https://i.imgur.com/Pwol5ZO.gif)
 
-### ft_atoi
+### int	ft_atoi(const char *nptr)
 ![ft_atoi 42 libft animation](https://i.imgur.com/nhLDh2M.gif)
 
-### ft_calloc
+### void	*ft_calloc(size_t nmemb, size_t size)
 ![ft_calloc 42 libft animation](https://i.imgur.com/tSj0OlZ.gif)
 
-### ft_strdup
+### char	*ft_strdup(const char *s)
 ![ft_strdup 42 libft animation](https://i.imgur.com/PqBvOHM.gif)
 
-### ft_substr
+### char	*ft_substr(char const *s, unsigned int start, size_t len)
 ![ft_substr 42 libft animation](https://i.imgur.com/Xq8xGf4.gif)
 
-### ft_strjoin
+### char	*ft_strjoin(char const *s1, char const *s2)
 ![ft_strjoin 42 libft animation](https://i.imgur.com/RUehaBx.gif)
 
-### ft_strtrim
+### static size_t	ft_stop_char(char const *s1, char const *set, size_t s1_len)
 ![ft_strtrim 42 libft animation](https://i.imgur.com/nxS2CU3.gif)
 
-### ft_split
+### char	**ft_split(char const *s, char c)
 ![ft_split 42 libft animation](https://i.imgur.com/3GNyUjP.gif)
 
-### ft_itoa
+### char	*ft_itoa(int n)
 ![ft_itoa 42 libft animation](https://i.imgur.com/GDwPcvT.gif)
 
-### ft_strmapi
+### char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 ![ft_strmapi 42 libft animation](https://i.imgur.com/qATDhSa.gif)
 
-### ft_striteri
+### void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 ![ft_striteri 42 libft animation](https://i.imgur.com/eCD0Nbq.gif)
 
-### ft_putchar
+### void	ft_putchar_fd(char c, int fd)
 ![ft_putchar 42 libft animation](https://i.imgur.com/GLY4RhG.gif)
 
-### ft_putstr
+### void	ft_putstr_fd(char *s, int fd)
 ![ft_putstr 42 libft animation](https://i.imgur.com/GateD00.gif)
 
-### ft_putendl
+### void	ft_putendl_fd(char *s, int fd)
 ![ft_putendl 42 libft animation](https://i.imgur.com/xfey6lW.gif)
 
-### ft_putnbr
+### void	ft_putnbr_fd(int n, int fd)
 ![ft_putnbr 42 libft animation](https://i.imgur.com/CeaesLO.gif)
 
 ## Bonus functions
 
-### ft_lstnew
+### t_list	*ft_lstnew(void *content)
 ![ft_lstnew 42 libft animation](https://i.imgur.com/XihA6l5.gif)
 
-### ft_lstadd_back
+### void	ft_lstadd_back(t_list **lst, t_list *new)
 ![ft_lstadd_front 42 libft animation](https://i.imgur.com/DEyoMlf.gif)
 
-### ft_lstsize
+### int	ft_lstsize(t_list *lst)
 ![ft_lstsize 42 libft animation](https://i.imgur.com/65MhpXW.gif)
 
-### ft_lstlast
+### t_list	*ft_lstlast(t_list *lst)
 ![ft_lstlast 42 libft animation](https://i.imgur.com/n254J8H.gif)
 
-### ft_lstadd_front
+### void	ft_lstadd_front(t_list **lst, t_list *new)
 ![ft_lstadd_back 42 libft animation](https://i.imgur.com/DkqVF66.gif)
 
-### ft_lstdelone
+### void	ft_lstdelone(t_list *lst, void (*del)(void *))
 ![ft_lstdelone 42 libft animation](https://i.imgur.com/Ztn7A2Y.gif)
 
-### ft_lstclear
+### void	ft_lstclear(t_list **lst, void (*del)(void *))
 ![ft_lstclear 42 libft animation](https://i.imgur.com/iMWDeM5.gif)
 
-### ft_lstiter
+### void	ft_lstiter(t_list *lst, void (*f)(void *))
 ![ft_lstiter 42 libft animation](https://i.imgur.com/AkKVwNe.gif)
 
-### ft_lstmap
+### t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 ![ft_lstmap 42 libft animation](https://i.imgur.com/wQtT5B2.gif)
 
 ## Author
