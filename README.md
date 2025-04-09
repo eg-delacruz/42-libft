@@ -80,7 +80,7 @@ Since the explanation of each function can be found in the manual (man [func_nam
 ### char	*ft_strjoin(char const *s1, char const *s2)
 ![ft_strjoin 42 libft animation](https://i.imgur.com/RUehaBx.gif)
 
-### static size_t	ft_stop_char(char const *s1, char const *set, size_t s1_len)
+### char	*ft_strtrim(char const *s1, char const *set)
 ![ft_strtrim 42 libft animation](https://i.imgur.com/nxS2CU3.gif)
 
 ### char	**ft_split(char const *s, char c)
