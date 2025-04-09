@@ -1,23 +1,9 @@
-# 42-libft
-First project of the 42 cursus: creation of a c standard library, reproducing the behavior of some already existing c functions. It also includes some custom functions required by the subject.
-The bonus part contains functions to create and manipulate singly-linked-lists, an efficient and versatile structure to manage data within the language.
+# 42-libft animations
 
 This repo is intended to provide a visual representation of each libft function and facilitate its understanding by displaying animations.
 
-## Usage
-
-After clonning the repository, you can execute the following commands in your terminal:
-
-- **`make all`**: Compile whole project, including bonus functions in a .a file
-
-- **`make clean`**: Clean all  object files generated after doing make all
-
-- **`make fclean`**: Erase object files by executing make clean, as well as the compiled .a library
-
-- **`make re`**: Executes the `fclean` command, followed by the `all` command to update compiled .a file after doing changes in any .c file. 
-
 ## Main functions
-Since the explanation of each function can be found in the manual (man [func_name]) or in the subject matter, I will not explain them textually but will simply display their animation.
+Since the explanation of each function can be found in the manual (man [func_name]) or in the subject matter, I will not explain them textually but will simply display their animation. This repository is NOT intended to be a guide for the libft project. It is meant to provide a different point of view to understand the concepts required.
 
 ### int	ft_isalpha(int c)
 ![ft_isalpha 42 libft animation](https://i.imgur.com/MUCEgSx.gif)
